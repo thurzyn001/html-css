@@ -1,0 +1,65 @@
+
+/* 
+
+em HTML é "id" == em CSS é "#"
+
+em HTML é "class" == em CSS é "."
+
+*/
+
+
+body {
+
+    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+    color: #3e5348;
+}
+
+#principal {
+
+    background-image: linear-gradient(90deg, #334639, #427554, #334639);
+    text-align: center;
+    color: #d9e7ff;
+
+}
+
+h2 {
+
+    color: #4b5a3a;
+
+}
+
+.basico {
+
+    color: #718c51;
+    font-weight: bolder;
+    font-size: 120%;
+
+}
+
+.intermediario {
+
+    color: #a5a877;
+    font-weight: bolder;
+    font-size: 120%;
+
+}
+.avancado {
+
+    color: #a87777;
+    font-weight: bolder;
+    font-size: 120%;
+
+}
+
+.destaque {
+
+    background-image: linear-gradient(90deg, #B8C52D, #DFF00F, #B8C52D);
+
+}
+
