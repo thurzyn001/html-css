@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Minha Primeira Tabela!</h1>
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+
+        <table> = tabela
+            <tr> (table row) = linha da tabela
+                <th> (table header) = cabeçalho da tabela
+                <td> (table data) = célula da tabela
+        </table>
+
+        A W3C (e o Guanabara!!!) recomenda FORTEMENTE que as tabelas sejam usadas para exibir dados tabulares, e não para layout de páginas.
+        E também, a partir do HTML5, o uso da tag de fechamento das trs e tds é opcional, mas é uma boa prática incluí-las para manter a clareza do código.
+
+        Entender e obedecer a hierarquia original e tambem saber criar e organizar a sua própria hierarquia de elementos é muito importante para a acessibilidade e usabilidade do site.
+
+        ex: se colocar um elemento teste dentro de uma tr, mas sem colocar o td, o nome teste ficara em cima da tabela, e não dentro dela.
+    -->
+    <table>
+        <tr> <!-- Primeira Linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr class="linha"> <!-- Segunda Linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr> <!-- Terceira Linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr> <!-- Quarta Linha-->
+            <td>A4</td> 
+            <td class="dado">B4</td>
+            <td>C4</td>
+        </tr>
+
+        <tr> <!-- Quinta Linha-->
+            <td>A5</td>
+            <td>B5</td>
+        </tr>
+
+        <tr> <!-- Sexta Linha-->
+            <td>A6</td>
+        </tr>
+    </table>
+</body>
+</html>
